@@ -16,6 +16,9 @@ int main(){
   sum(n);
   cout << "\nCurrent value: " << n << endl;
 
+  product(n);
+  cout << "\nCurrent value: " << n << endl;
+
   cout << "Hello world!" << endl;
 
 }
