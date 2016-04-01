@@ -6,6 +6,8 @@ using namespace std;
 
 int sum(int n);
 
+int product(int n);
+
 int main(){
 
   int n;
@@ -28,4 +30,14 @@ int sum(int n){
 
   return sum;
 
+}
+
+int product(int n){
+  int product;
+
+  for (int i = 1; i < n; i++){
+    product*=i;
+  }
+
+  return product;
 }
